@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #102a43; /* Darker background blue */
+    color: #f0f4f8; /* Light text color for contrast */
+}
+
+header {
+    background-color: #0b2539; /* Very dark blue for more contrast */
+    padding: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #ffffff;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns content to the top */
+    align-items: center; /* Centers content horizontally */
+    color: #f0f4f8;
+    padding-top: 50px; /* Adds space from the top */
+}
+
+.section h1 {
+    margin-bottom: 40px; /* Adds space below the heading */
+    font-size: 36px;
+    text-align: center; /* Centers the text */
+}
+
+#home {
+    background: linear-gradient(135deg, #A4D8E1, #006B92); /* Light to medium blue */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#council-members {
+    background: linear-gradient(135deg, #005B99, #002D4C); /* Dark blue gradient */
+    height: auto; /* Allow height to adjust based on content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#values {
+    background: linear-gradient(135deg, #B0E0E6, #007A8C); /* Light to medium blue */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home h1 {
+    font-size: 60px; /* Makes the heading larger */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+#home p {
+    font-size: 24px; /* Increases the size of the paragraph text */
+    max-width: 800px; /* Limits the width of the text */
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between cards */
+    flex-wrap: wrap; /* Allows multiple cards to wrap on smaller screens */
+    padding: 20px;
+}
+
+.card {
+    background: linear-gradient(135deg, #163a4f, #0f2d42); /* Gradient background */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Hover effect to lift the card */
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 22px;
+    color: #f0f4f8; /* Light text for contrast */
+}
+
+.card p {
+    font-size: 16px;
+    color: #c1d3e0; /* Slightly lighter text for the post */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #0b2539; /* Match header with footer */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+
